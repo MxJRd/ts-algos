@@ -1,7 +1,7 @@
 import { areThereDuplicates, same, sameFrequency, validAnagram } from './frequency_counters/index'
 import { averagePair, isSubsequence, sumZero } from './multiple_pointers'
 import { countUniqueValues } from './multiple_pointers/problems/countUniqueValues'
-import { factorial } from './recursion'
+import { factorial, fib, power, productOfArray } from './recursion'
 import { isSubsequenceSlidingWindow, maxSubarraySum } from './sliding_window'
 
 
@@ -56,3 +56,14 @@ import { isSubsequenceSlidingWindow, maxSubarraySum } from './sliding_window'
 
 // console.log(factorial(4)) // 24
 // console.log(factorial(3)) // 6
+
+// console.log(power(2, 4)) // 16
+// console.log(power(3, 3)) // 27
+
+// console.log(productOfArray([1,2,3])) // 6
+// console.log(productOfArray([1,2,3,10])) // 60
+
+// console.log(fib(4)) // 3
+// console.log(fib(10)) // 55
+console.log(fib(28)) // 317811
+console.log(fib(35)) // 9227465
