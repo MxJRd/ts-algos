@@ -1,7 +1,9 @@
 import { areThereDuplicates, same, sameFrequency, validAnagram } from './frequency_counters/index'
+import { transpose } from './matrix'
 import { averagePair, isSubsequence, sumZero } from './multiple_pointers'
 import { countUniqueValues } from './multiple_pointers/problems/countUniqueValues'
 import { factorial, fib, power, productOfArray } from './recursion'
+import { reverseStr } from './recursion/problems/reverse'
 import { isSubsequenceSlidingWindow, maxSubarraySum } from './sliding_window'
 
 
@@ -65,5 +67,15 @@ import { isSubsequenceSlidingWindow, maxSubarraySum } from './sliding_window'
 
 // console.log(fib(4)) // 3
 // console.log(fib(10)) // 55
-console.log(fib(28)) // 317811
-console.log(fib(35)) // 9227465
+// console.log(fib(28)) // 317811
+// console.log(fib(35)) // 9227465
+
+// console.log(reverseStr('rithmschool'))
+
+const matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+
+console.log(transpose(matrix))
